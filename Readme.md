@@ -11,7 +11,7 @@ Prediction is based on the message reception information.
 
 Inputs are different information about messages:
 
-![InputImage](https://github.com/savoga/various_projects/blob/master/Data_Challenges/Geolocalisation/img/Inputs.png)
+![InputImage](https://github.com/savoga/various_projects/blob/master/device-geolocalisation/img/Inputs.png)
 
 Note: _rssi_ (Received Signal Strength Indicator) is an estimation of the signal power level received by the device.
 
@@ -21,7 +21,7 @@ Note: we won't use column _nseq_ and _time_ux_.
 
 Outputs are the localisation (latitude and longitude) of the located device:
 
-![OutputImage](https://github.com/savoga/various_projects/blob/master/Data_Challenges/Geolocalisation/img/output.png)
+![OutputImage](https://github.com/savoga/various_projects/blob/master/device-geolocalisation/img/output.png)
 
 ## Materials
 
@@ -124,7 +124,7 @@ Next we plot the cumulative probabilities. This is simply the cumulative sum of 
 
 We look at the error of the 80th percentile, that is around 7.5 kms on the figure.
 
-<img src="https://github.com/savoga/various_projects/blob/master/Data_Challenges/Geolocalisation/img/cumsum.png" width="500" height="300">
+<img src="https://github.com/savoga/various_projects/blob/master/device-geolocalisation/img/cumsum.png" width="500" height="300">
 
 ### Random forests
 
